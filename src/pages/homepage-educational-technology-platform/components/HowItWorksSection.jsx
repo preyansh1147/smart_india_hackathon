@@ -109,7 +109,7 @@ const HowItWorksSection = () => {
             Your Journey to Success
           </div>
           <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold text-text-primary mb-6">
-            How PathFinder Pro Works
+            How ShikshaPath  Works
           </h2>
           <p className="text-lg text-text-secondary max-w-3xl mx-auto">
             Our proven 5-step process guides you from self-discovery to college admission, 

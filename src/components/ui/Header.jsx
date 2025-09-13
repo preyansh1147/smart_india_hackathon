@@ -77,10 +77,10 @@ const Header = ({ className = '' }) => {
       </div>
       <div className="flex flex-col">
         <span className="text-xl font-bold text-text-primary font-inter tracking-tight">
-          PathFinder Pro
+          ShikshaPath
         </span>
         <span className="text-xs text-text-secondary font-medium -mt-1">
-          Your Career Journey
+          Taleem Se Tarakki Tak
         </span>
       </div>
     </Link>

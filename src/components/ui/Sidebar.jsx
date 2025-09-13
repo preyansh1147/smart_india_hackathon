@@ -85,7 +85,7 @@ const Sidebar = ({ isCollapsed = false, onToggle, className = '' }) => {
       {!isCollapsed && (
         <div className="flex flex-col">
           <span className="text-lg font-bold text-text-primary font-inter tracking-tight">
-            PathFinder Pro
+            ShikshaPath 
           </span>
           <span className="text-xs text-text-secondary font-medium -mt-1">
             Career Guidance

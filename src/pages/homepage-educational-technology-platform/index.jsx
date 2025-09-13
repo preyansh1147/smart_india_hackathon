@@ -18,17 +18,17 @@ const HomepageEducationalTechnologyPlatform = () => {
   return (
     <>
       <Helmet>
-        <title>PathFinder Pro - Empowered Choices, Limitless Futures | Career Guidance Platform</title>
+        <title>ShikshaPath  - Empowered Choices, Limitless Futures | Career Guidance Platform</title>
         <meta 
           name="description" 
           content="India's #1 AI-powered career guidance platform. Get personalized stream recommendations, college intelligence, and expert counseling. Democratizing quality career guidance for every Indian student." 
         />
         <meta 
           name="keywords" 
-          content="career guidance, stream selection, college admission, career counseling, education technology, Indian students, PathFinder Pro, AI career guidance" 
+          content="career guidance, stream selection, college admission, career counseling, education technology, Indian students, ShikshaPath , AI career guidance" 
         />
-        <meta name="author" content="PathFinder Pro" />
-        <meta property="og:title" content="PathFinder Pro - Your Career Journey Starts Here" />
+        <meta name="author" content="ShikshaPath " />
+        <meta property="og:title" content="ShikshaPath  - Taleem Se Tarakki Tak Starts Here" />
         <meta 
           property="og:description" 
           content="Empowering Indian students with AI-driven career guidance and personalized educational pathways. Join 50,000+ students who found their perfect career path." 
@@ -36,7 +36,7 @@ const HomepageEducationalTechnologyPlatform = () => {
         <meta property="og:type" content="website" />
         <meta property="og:url" content="https://pathfinderpro.in" />
         <meta name="twitter:card" content="summary_large_image" />
-        <meta name="twitter:title" content="PathFinder Pro - Career Guidance Platform" />
+        <meta name="twitter:title" content="ShikshaPath  - Career Guidance Platform" />
         <meta 
           name="twitter:description" 
           content="India's most trusted career guidance platform. Get personalized recommendations and expert support for your educational journey." 

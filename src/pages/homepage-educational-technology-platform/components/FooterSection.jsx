@@ -29,7 +29,7 @@ const FooterSection = () => {
       { name: 'Live Chat', path: '/personal-guidance-center' }
     ],
     company: [
-      { name: 'About PathFinder Pro', path: '/homepage-educational-technology-platform' },
+      { name: 'About ShikshaPath ', path: '/homepage-educational-technology-platform' },
       { name: 'Our Mission', path: '/homepage-educational-technology-platform' },
       { name: 'Privacy Policy', path: '/homepage-educational-technology-platform' },
       { name: 'Terms of Service', path: '/homepage-educational-technology-platform' },
@@ -94,8 +94,8 @@ const FooterSection = () => {
                   </div>
                 </div>
                 <div>
-                  <h3 className="text-2xl font-bold font-inter tracking-tight">PathFinder Pro</h3>
-                  <p className="text-sm text-white/70">Your Career Journey</p>
+                  <h3 className="text-2xl font-bold font-inter tracking-tight">ShikshaPath </h3>
+                  <p className="text-sm text-white/70">Taleem Se Tarakki Tak</p>
                 </div>
               </div>
               
@@ -266,7 +266,7 @@ const FooterSection = () => {
             {/* Copyright */}
             <div className="text-center lg:text-right">
               <p className="text-white/70 text-sm">
-                © {currentYear} PathFinder Pro. All rights reserved.
+                © {currentYear} ShikshaPath . All rights reserved.
               </p>
               <p className="text-white/60 text-xs mt-1">
                 Made with ❤️ for Indian students

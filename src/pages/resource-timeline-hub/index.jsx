@@ -698,7 +698,7 @@ const ResourceTimelineHub = () => {
               </Link>
             </div>
             <div className="text-sm text-text-secondary">
-              © {new Date()?.getFullYear()} PathFinder Pro. All rights reserved.
+              © {new Date()?.getFullYear()} ShikshaPath . All rights reserved.
             </div>
           </div>
         </div>

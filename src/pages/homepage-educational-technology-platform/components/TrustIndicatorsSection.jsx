@@ -63,7 +63,7 @@ const TrustIndicatorsSection = () => {
   const mediaRecognition = [
     {
       outlet: 'The Times of India',
-      headline: 'PathFinder Pro Revolutionizes Career Guidance in India',
+      headline: 'ShikshaPath  Revolutionizes Career Guidance in India',
       date: '2024-08-15',
       category: 'Education Technology'
     },
@@ -140,7 +140,7 @@ const TrustIndicatorsSection = () => {
             Backed by Trust & Excellence
           </h2>
           <p className="text-lg text-text-secondary max-w-3xl mx-auto">
-            PathFinder Pro is recognized and trusted by government bodies, educational institutions, 
+            ShikshaPath  is recognized and trusted by government bodies, educational institutions, 
             and media outlets across India for our commitment to quality and security.
           </p>
         </div>

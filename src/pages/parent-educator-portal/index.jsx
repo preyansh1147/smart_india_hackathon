@@ -183,7 +183,7 @@ const ParentEducatorPortal = () => {
             <div className="flex flex-col sm:flex-row items-center justify-between">
               <div className="mb-4 sm:mb-0">
                 <p className="text-text-secondary text-sm">
-                  Need to explore other sections of PathFinder Pro?
+                  Need to explore other sections of ShikshaPath ?
                 </p>
               </div>
               <div className="flex flex-wrap gap-3">
@@ -222,7 +222,7 @@ const ParentEducatorPortal = () => {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
           <div className="text-center">
             <p className="text-text-secondary text-sm">
-              © {new Date()?.getFullYear()} PathFinder Pro. Empowering families and educators to guide the next generation.
+              © {new Date()?.getFullYear()} ShikshaPath . Empowering families and educators to guide the next generation.
             </p>
           </div>
         </div>

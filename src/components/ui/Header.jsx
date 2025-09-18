@@ -1,7 +1,8 @@
-import React, { useState, useEffect } from 'react';
-import { Link, useLocation } from 'react-router-dom';
-import Icon from '../AppIcon';
+import { Link, useLocation, useNavigate } from 'react-router-dom';
+import React, { useEffect, useState } from 'react';
+
 import Button from './Button';
+import Icon from '../AppIcon';
 
 const Header = ({ className = '' }) => {
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
@@ -41,7 +42,27 @@ const Header = ({ className = '' }) => {
       name: 'Parent Portal', 
       path: '/parent-educator-portal',
       icon: 'UserCheck'
-    }
+    },
+    { 
+        name: 'User Login', 
+        path: '/user-login',
+        icon: 'User',
+    },
+    {
+        name: 'Timeline Tracker',
+        path: '/timeline-tracker',
+        icon: 'Calendar',
+    },
+    {
+        name: 'User Dashboard',
+        path: '/user-dashboard',
+        icon: 'User',
+    },
+    {
+        name: "Aptitude Assessment Quiz",
+        path: '/aptitude-assessment-quiz',
+        icon: 'Target',
+    },
   ];
 
   useEffect(() => {
@@ -67,14 +88,15 @@ const Header = ({ className = '' }) => {
 
   const Logo = () => (
     <Link to="/homepage-educational-technology-platform" className="flex items-center space-x-3 group">
-      <div className="relative">
+      {/* <div className="relative">
         <div className="w-10 h-10 bg-gradient-to-br from-primary to-secondary rounded-lg flex items-center justify-center shadow-elevation-2 group-hover:shadow-elevation-3 transition-all duration-300">
           <Icon name="Navigation" size={20} color="white" strokeWidth={2.5} />
         </div>
         <div className="absolute -top-1 -right-1 w-4 h-4 bg-accent rounded-full flex items-center justify-center">
           <Icon name="Sparkles" size={8} color="white" strokeWidth={3} />
         </div>
-      </div>
+      </div> */}
+      <img src="/assets/images/shikshapath-logo.png" alt="ShikshaPath" className="w-20 h-20" />
       <div className="flex flex-col">
         <span className="text-xl font-bold text-text-primary font-inter tracking-tight">
           ShikshaPath
@@ -85,6 +107,7 @@ const Header = ({ className = '' }) => {
       </div>
     </Link>
   );
+  const navigate = useNavigate();
 
   return (
     <header 
@@ -160,6 +183,7 @@ const Header = ({ className = '' }) => {
             <Button
               variant="default"
               size="sm"
+              onClick={() => navigate('/aptitude-assessment-quiz')}
               iconName="ArrowRight"
               iconPosition="right"
               className="bg-action hover:bg-action/90"
@@ -238,6 +262,7 @@ const Header = ({ className = '' }) => {
               <Button
                 variant="default"
                 fullWidth
+                onClick={() => navigate('/aptitude-assessment-quiz')}
                 iconName="ArrowRight"
                 iconPosition="right"
                 className="justify-center bg-action hover:bg-action/90"

@@ -11,7 +11,7 @@
     --color-foreground: #1F2937; /* gray-800 */
     --color-border: #E5E7EB; /* gray-200 */
     --color-input: #FFFFFF; /* white */
-    --color-ring: #1E40AF; /* blue-800 */
+    --color-ring: #298e8b; /* blue-800 */
     
     /* Card Colors */
     --color-card: #FFFFFF; /* white */
@@ -24,7 +24,7 @@
     --color-muted-foreground: #6B7280; /* gray-500 */
     
     /* Primary Colors */
-    --color-primary: #1E40AF; /* blue-800 */
+    --color-primary: #298e8b; /* blue-800 */
     --color-primary-foreground: #FFFFFF; /* white */
     
     /* Secondary Colors */
@@ -57,7 +57,7 @@
     --color-text-secondary: #6B7280; /* gray-500 */
     --color-professional: #6366F1; /* indigo-500 */
     --color-professional-foreground: #FFFFFF; /* white */
-    --color-action: #DC2626; /* red-600 */
+    --color-action: #e24d34; /* red-600 */
     --color-action-foreground: #FFFFFF; /* white */
     --color-canvas: #F8FAFC; /* slate-50 */
     

@@ -1,7 +1,7 @@
-import React from 'react';
-import { Link } from 'react-router-dom';
-import Icon from '../../../components/AppIcon';
 import Button from '../../../components/ui/Button';
+import Icon from '../../../components/AppIcon';
+import { Link } from 'react-router-dom';
+import React from 'react';
 
 const FooterSection = () => {
   const currentYear = new Date()?.getFullYear();
@@ -38,11 +38,11 @@ const FooterSection = () => {
   };
 
   const socialLinks = [
-    { name: 'Facebook', icon: 'Facebook', url: 'https://facebook.com/pathfinderpro' },
-    { name: 'Twitter', icon: 'Twitter', url: 'https://twitter.com/pathfinderpro' },
-    { name: 'Instagram', icon: 'Instagram', url: 'https://instagram.com/pathfinderpro' },
-    { name: 'LinkedIn', icon: 'Linkedin', url: 'https://linkedin.com/company/pathfinderpro' },
-    { name: 'YouTube', icon: 'Youtube', url: 'https://youtube.com/pathfinderpro' }
+    { name: 'Facebook', icon: 'Facebook', url: 'https://facebook.com/shikshapath' },
+    { name: 'Twitter', icon: 'Twitter', url: 'https://twitter.com/shikshpathpro' },
+    { name: 'Instagram', icon: 'Instagram', url: 'https://instagram.com/shikshapath' },
+    { name: 'LinkedIn', icon: 'Linkedin', url: 'https://linkedin.com/company/shikshapath' },
+    { name: 'YouTube', icon: 'Youtube', url: 'https://youtube.com/shikshapath' }
   ];
 
   const contactInfo = [

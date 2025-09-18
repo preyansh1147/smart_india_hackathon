@@ -1,11 +1,13 @@
 import React, { useState } from 'react';
+
+import Button from '../../../components/ui/Button';
 import Icon from '../../../components/AppIcon';
 import Image from '../../../components/AppImage';
-import Button from '../../../components/ui/Button';
 
 const VirtualTourModal = ({ college, isOpen, onClose }) => {
   const [currentView, setCurrentView] = useState('campus');
   const [isPlaying, setIsPlaying] = useState(false);
+  const [currentImageIndex, setCurrentImageIndex] = useState(0);
 
   if (!isOpen || !college) return null;
 
@@ -115,7 +117,6 @@ const VirtualTourModal = ({ college, isOpen, onClose }) => {
     }
   };
 
-  const [currentImageIndex, setCurrentImageIndex] = useState(0);
   const currentContent = tourContent?.[currentView];
 
   const nextImage = () => {

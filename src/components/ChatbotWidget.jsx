@@ -1,6 +1,7 @@
-import React, { useState, useEffect, useRef } from 'react';
-import Icon from '../../../components/AppIcon';
-import Button from '../../../components/ui/Button';
+import React, { useEffect, useRef, useState } from 'react';
+
+import Button from './ui/Button';
+import Icon from './AppIcon';
 
 const ChatbotWidget = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -20,7 +21,7 @@ const ChatbotWidget = () => {
 
   const welcomeMessages = {
     english: {
-      greeting: "Hi! I'm PathFinder AI, your career guidance assistant. How can I help you today?",
+      greeting: "Hi! I'm ShikshaPath AI, your career guidance assistant. How can I help you today?",
       quickReplies: [
         "Help me choose a stream",
         "Find colleges near me",
@@ -29,7 +30,7 @@ const ChatbotWidget = () => {
       ]
     },
     hindi: {
-      greeting: "नमस्ते! मैं PathFinder AI हूं, आपका करियर गाइडेंस असिस्टेंट। आज मैं आपकी कैसे मदद कर सकता हूं?",
+      greeting: "नमस्ते! मैं ShikshaPath AI हूं, आपका करियर गाइडेंस असिस्टेंट। आज मैं आपकी कैसे मदद कर सकता हूं?",
       quickReplies: [
         "स्ट्रीम चुनने में मदद करें",
         "मेरे पास के कॉलेज खोजें",
@@ -38,7 +39,7 @@ const ChatbotWidget = () => {
       ]
     },
     tamil: {
-      greeting: "வணக்கம்! நான் PathFinder AI, உங்கள் தொழில் வழிகாட்டுதல் உதவியாளர். இன்று நான் உங்களுக்கு எப்படி உதவ முடியும்?",
+      greeting: "வணக்கம்! நான் ShikshaPath AI, உங்கள் தொழில் வழிகாட்டுதல் உதவியாளர். இன்று நான் உங்களுக்கு எப்படி உதவ முடியும்?",
       quickReplies: [
         "ஸ்ட்ரீம் தேர்வு செய்ய உதவுங்கள்",
         "என் அருகில் உள்ள கல்லூரிகள்",
@@ -47,7 +48,7 @@ const ChatbotWidget = () => {
       ]
     },
     telugu: {
-      greeting: "నమస్కారం! నేను PathFinder AI, మీ కెరీర్ గైడెన్స్ అసిస్టెంట్. ఈరోజు నేను మీకు ఎలా సహాయం చేయగలను?",
+      greeting: "నమస్కారం! నేను ShikshaPath AI, మీ కెరీర్ గైడెన్స్ అసిస్టెంట్. ఈరోజు నేను మీకు ఎలా సహాయం చేయగలను?",
       quickReplies: [
         "స్ట్రీమ్ ఎంచుకోవడంలో సహాయం",
         "నా దగ్గర కాలేజీలు కనుగొనండి",
@@ -56,7 +57,7 @@ const ChatbotWidget = () => {
       ]
     },
     bengali: {
-      greeting: "নমস্কার! আমি PathFinder AI, আপনার ক্যারিয়ার গাইডেন্স সহায়ক। আজ আমি আপনাকে কীভাবে সাহায্য করতে পারি?",
+      greeting: "নমস্কার! আমি ShikshaPath AI, আপনার ক্যারিয়ার গাইডেন্স সহায়ক। আজ আমি আপনাকে কীভাবে সাহায্য করতে পারি?",
       quickReplies: [
         "স্ট্রিম বেছে নিতে সাহায্য করুন",
         "আমার কাছের কলেজগুলি খুঁজুন",
@@ -189,7 +190,7 @@ const ChatbotWidget = () => {
                     <Icon name="Bot" size={16} />
                   </div>
                   <div>
-                    <h3 className="font-semibold text-sm">PathFinder AI</h3>
+                    <h3 className="font-semibold text-sm">ShikshaPath AI</h3>
                     <p className="text-xs text-white/80">Career Guidance Assistant</p>
                   </div>
                 </div>
@@ -321,7 +322,7 @@ const ChatbotWidget = () => {
             >
               <p className="text-sm text-text-primary">{prompt}</p>
               <div className="flex items-center justify-between mt-2">
-                <span className="text-xs text-text-secondary">Ask PathFinder AI</span>
+                <span className="text-xs text-text-secondary">Ask ShikshaPath AI</span>
                 <Icon name="ArrowRight" size={12} className="text-primary" />
               </div>
             </div>

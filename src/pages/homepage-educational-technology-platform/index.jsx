@@ -1,13 +1,13 @@
 import React, { useEffect } from 'react';
-import { Helmet } from 'react-helmet';
+
+import FooterSection from './components/FooterSection';
 import Header from '../../components/ui/Header';
+import { Helmet } from 'react-helmet';
 import HeroSection from './components/HeroSection';
-import StatsSection from './components/StatsSection';
 import HowItWorksSection from './components/HowItWorksSection';
+import StatsSection from './components/StatsSection';
 import SuccessStoriesSection from './components/SuccessStoriesSection';
 import TrustIndicatorsSection from './components/TrustIndicatorsSection';
-import ChatbotWidget from './components/ChatbotWidget';
-import FooterSection from './components/FooterSection';
 
 const HomepageEducationalTechnologyPlatform = () => {
   useEffect(() => {
@@ -34,14 +34,14 @@ const HomepageEducationalTechnologyPlatform = () => {
           content="Empowering Indian students with AI-driven career guidance and personalized educational pathways. Join 50,000+ students who found their perfect career path." 
         />
         <meta property="og:type" content="website" />
-        <meta property="og:url" content="https://pathfinderpro.in" />
+        <meta property="og:url" content="https://shikshapath.in" />
         <meta name="twitter:card" content="summary_large_image" />
         <meta name="twitter:title" content="ShikshaPath  - Career Guidance Platform" />
         <meta 
           name="twitter:description" 
           content="India's most trusted career guidance platform. Get personalized recommendations and expert support for your educational journey." 
         />
-        <link rel="canonical" href="https://pathfinderpro.in" />
+        <link rel="canonical" href="https://shikshapath.in" />
       </Helmet>
 
       <div className="min-h-screen bg-background">
@@ -69,8 +69,7 @@ const HomepageEducationalTechnologyPlatform = () => {
         {/* Footer */}
         <FooterSection />
 
-        {/* Floating Chatbot Widget */}
-        <ChatbotWidget />
+    
       </div>
     </>
   );

@@ -1,7 +1,8 @@
-import React, { useState, useEffect } from 'react';
 import { Link, useLocation } from 'react-router-dom';
-import Icon from '../AppIcon';
+import React, { useEffect, useState } from 'react';
+
 import Button from './Button';
+import Icon from '../AppIcon';
 
 const Sidebar = ({ isCollapsed = false, onToggle, className = '' }) => {
   const [isMobileOpen, setIsMobileOpen] = useState(false);
@@ -43,6 +44,12 @@ const Sidebar = ({ isCollapsed = false, onToggle, className = '' }) => {
       path: '/parent-educator-portal',
       icon: 'UserCheck',
       description: 'Family dashboard'
+    },
+    { 
+        name: 'User Login', 
+        path: '/user-login',
+        icon: 'User',
+        description: 'User login'
     }
   ];
 
